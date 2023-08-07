@@ -67,7 +67,7 @@ public class Day13_Annotations {
     public void test4(){
         System.out.println("Test4");
     }
-    @Test(priority = 2)
+    @Test //no priority is 0 priority by default, which is smaller than 1!!!
     public void test5(){
         System.out.println("Test5");
     }
