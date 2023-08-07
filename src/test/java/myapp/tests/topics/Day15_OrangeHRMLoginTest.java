@@ -1,6 +1,7 @@
 package myapp.tests.topics;
 import myapp.pages.OrangeHRMDashboardPage;
 import myapp.pages.OrangeHRMLoginPage;
+import myapp.utilities.ConfigReader;
 import myapp.utilities.Driver;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ public class Day15_OrangeHRMLoginTest {
     @Test
     public void orangeHRMLoginTest(){
 //        Given user is the application login page
-        Driver.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        Driver.getDriver().get(ConfigReader.getProperty("orangehrm_url"));
 //        Then enter the credentials
         OrangeHRMLoginPage orangeHRMLoginPage = new OrangeHRMLoginPage();
         orangeHRMLoginPage.username.sendKeys("Admin");
