@@ -36,7 +36,7 @@ public class Driver {
                     driver = new SafariDriver();
                     break;
             }
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
             driver.manage().window().maximize();
         }
         return driver;
