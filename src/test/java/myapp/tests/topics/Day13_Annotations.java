@@ -51,7 +51,7 @@ public class Day13_Annotations {
     public void afterSuite(){
         System.out.println("After suite...");
     }
-    @Test
+    @Test(priority = 3)
     public void test1(){
         System.out.println("Test1");
     }
@@ -63,11 +63,11 @@ public class Day13_Annotations {
     public void test3(){
         System.out.println("Test3");
     }
-    @Test
+    @Test(priority = 1)
     public void test4(){
         System.out.println("Test4");
     }
-    @Test
+    @Test(priority = 2)
     public void test5(){
         System.out.println("Test5");
     }
