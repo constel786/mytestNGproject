@@ -55,11 +55,11 @@ public class Day13_Annotations {
     public void test1(){
         System.out.println("Test1");
     }
-    @Test
+    @Test @Ignore //ignoring
     public void test2(){
         System.out.println("Test2");
     }
-    @Test
+    @Test(enabled = false) //disabling
     public void test3(){
         System.out.println("Test3");
     }
