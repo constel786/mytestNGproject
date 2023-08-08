@@ -21,7 +21,7 @@ public class Day16_ExcelAutomation {
         excelUtils = new ExcelUtils(path, sheetName);
         dataList = excelUtils.getDataList();
         System.out.println(dataList);
-        for (Map<String ,String> eachData : dataList){
+        for (Map<String, String> eachData : dataList){
             Driver.getDriver().get("https://www.bluerentalcars.com/");
             rentalHomePage= new RentalHomePage();
             rentalLoginPage=new RentalLoginPage();
