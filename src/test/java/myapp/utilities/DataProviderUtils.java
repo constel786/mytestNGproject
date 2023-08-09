@@ -17,7 +17,7 @@ public class DataProviderUtils {
     //    getting the data from excel. this data will be used in the test cases
     @DataProvider
     public Object[][] excelCustomerCredentials(){
-        String path = "./resources/mysmoketestdata.xlsx";
+        String path = "resources/mysmoketestdata.xlsx";
         String sheetName = "customer_info";
         ExcelUtils excelUtils = new ExcelUtils(path, sheetName);
         Object [][] customerInfo = excelUtils.getDataArrayWithoutFirstRow();
