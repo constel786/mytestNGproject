@@ -51,7 +51,7 @@ public class Day13_Annotations {
     public void afterSuite(){
         System.out.println("After suite...");
     }
-    @Test(priority = 3)
+    @Test(priority = 3, groups = "minor-regression-1")
     public void test1(){
         System.out.println("Test1");
     }
@@ -67,7 +67,7 @@ public class Day13_Annotations {
     public void test4(){
         System.out.println("Test4");
     }
-    @Test //no priority is 0 priority by default, which is smaller than 1!!!
+    @Test (groups = "minor-regression-1")//no priority is 0 priority by default, which is smaller than 1!!!
     public void test5(){
         System.out.println("Test5");
     }

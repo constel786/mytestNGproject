@@ -7,8 +7,10 @@
         </packages>
     </test>
 </suite>
-        <!--
-        1. xml files are used to run test classes
-        2. suite > test > package > groups > class > method
-        3. verbose: the amount of info you see on the console
-        -->
+<!--
+1. xml files are used to run test classes
+2. suite > test > package > groups > class > method
+3. verbose: the amount of info you see on the console
+4. Save the xml file before you run (command-S or File -> Save All)
+5. If path is not correct then we see No tests were found error message
+-->

@@ -29,5 +29,6 @@ public class Day15_OrangeHRMLoginTest {
 //        Then verify the logout is successful
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains("auth/login")); //OR
         // Assert.assertTrue(orangeHRMLoginPage.loginButton.isDisplayed());
+        Driver.closeDriver();
     }
 }
