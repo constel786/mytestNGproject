@@ -16,7 +16,7 @@ public class Day16_ExcelAutomation {
     RentalHomePage rentalHomePage;
     @Test
     public void appLoginTest(){
-        String path = "./resources/mysmoketestdata.xlsx";
+        String path = "/Users/eozer1/Selenium Projects/mytestNGproject/resources/mysmoketestdata.xlsx";
         String sheetName = "customer_info";
         excelUtils = new ExcelUtils(path, sheetName);
         dataList = excelUtils.getDataList();
