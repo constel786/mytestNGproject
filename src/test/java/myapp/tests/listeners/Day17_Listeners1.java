@@ -22,6 +22,7 @@ public class Day17_Listeners1 {
     public void test2(){
         System.out.println("FAIL");
         assertTrue(false);
+    // Whitespace screenshot taken from the xml file
     }
     @Test
     public void test3(){
@@ -33,5 +34,6 @@ public class Day17_Listeners1 {
         System.out.println("FAIL - THROW EXCEPTION");
         Driver.getDriver().get("https://www.amazon.com");
         Driver.getDriver().findElement(By.id("wrong-id"));//throws no such element exception
+        //Amazon screenshot taken from the xml file
     }
 }
