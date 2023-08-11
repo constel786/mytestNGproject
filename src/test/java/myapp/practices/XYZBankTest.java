@@ -148,7 +148,6 @@ Then
 //        Click on "Customers" button
         xyzBankManagerPage.customersButton.click();
 
-
 //        Assert that you created 5 customers
 
         for (int i=0; i<5; i++){
@@ -162,7 +161,6 @@ Then
 
 //        Click on "Customer Login" button
         xyzBankHomePage.customerLoginButton.click();
-
 
 //        Select  any name you created
         XYZBankCustomerPage xyzBankCustomerPage = new XYZBankCustomerPage();
