@@ -35,7 +35,7 @@ public class Day16_DataProvider3 {
         //        then verify logout is successful
         BrowserUtils.verifyElementDisplayed(rentalHomePage.loginLink);//OR
         BrowserUtils.verifyElementNotDisplayed(rentalHomePage.OK);
-        WaitUtils.waitFor(2);
-        Driver.closeDriver();
+        //WaitUtils.waitFor(2);
+        //Driver.closeDriver();
     }
 }
