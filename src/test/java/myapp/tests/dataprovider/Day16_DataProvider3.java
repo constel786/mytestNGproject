@@ -36,6 +36,6 @@ public class Day16_DataProvider3 {
         BrowserUtils.verifyElementDisplayed(rentalHomePage.loginLink);//OR
         BrowserUtils.verifyElementNotDisplayed(rentalHomePage.OK);
         WaitUtils.waitFor(2);
-        //Driver.closeDriver();
+        Driver.closeDriver();
     }
 }
