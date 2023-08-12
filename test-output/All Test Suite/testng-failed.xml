@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/eozer1/Selenium Projects/mytestNGproject/src/test/java/myapp/tests/smoketest(failed)">
+    <classes>
+      <class name="myapp.tests.smoketest.excelautomation.Day16_ExcelAutomation">
+        <methods>
+          <include name="appLoginTest"/>
+        </methods>
+      </class> <!-- myapp.tests.smoketest.excelautomation.Day16_ExcelAutomation -->
+    </classes>
+  </test> <!-- /Users/eozer1/Selenium Projects/mytestNGproject/src/test/java/myapp/tests/smoketest(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

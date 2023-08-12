@@ -1,5 +1,4 @@
 package myapp.tests.dataprovider;
-
 import myapp.pages.RentalHomePage;
 import myapp.pages.RentalLoginPage;
 import myapp.utilities.BrowserUtils;
@@ -13,8 +12,8 @@ public class Day16_DataProvider3 {
     @Test(dataProvider = "excelCustomerCredentials", dataProviderClass = DataProviderUtils.class )
     public void customerLogin(String userName, String password){
         Driver.getDriver().get("https://www.bluerentalcars.com/");
-        rentalHomePage = new RentalHomePage();
-        rentalLoginPage = new RentalLoginPage();
+        rentalHomePage= new RentalHomePage();
+        rentalLoginPage=new RentalLoginPage();
         rentalHomePage.loginLink.click();
         WaitUtils.waitFor(2);
         rentalLoginPage.username.sendKeys(userName);
