@@ -3,7 +3,7 @@
     <test name="regression testing">
         <packages>
             <!--            run all packages under myapp-->
-            //<package name="myapp.*" />
+            <package name="myapp.*" />
         </packages>
     </test>
 </suite>
