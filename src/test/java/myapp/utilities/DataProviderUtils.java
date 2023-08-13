@@ -1,11 +1,9 @@
 package myapp.utilities;
-
 import org.testng.annotations.DataProvider;
-
 public class DataProviderUtils {
     @DataProvider
     public Object[][] customerCredentials(){
-        Object [][] customerInfo = {
+        Object [][] customerInfo={
                 {"sam.walker@bluerentalcars.com","c!fas_art"},
                 {"kate.brown@bluerentalcars.com","tad1$Fas"},
                 {"raj.khan@bluerentalcars.com","v7Hg_va^"},
@@ -14,10 +12,9 @@ public class DataProviderUtils {
         return customerInfo;
     }
 
-    //    getting the data from excel. this data will be used in the test cases
     @DataProvider
     public Object[][] excelCustomerCredentials(){
-        String path = "resources/mysmoketestdata.xlsx";
+        String path = "./resources/mysmoketestdata.xlsx";
         String sheetName = "customer_info";
         ExcelUtils excelUtils = new ExcelUtils(path, sheetName);
         Object [][] customerInfo = excelUtils.getDataArrayWithoutFirstRow();

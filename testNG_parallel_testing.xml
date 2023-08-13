@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression suite" verbose="1" parallel="methods" thread-count="3">
+    <test name="regression testing">
+        <packages>
+            <!--            run all packages under myapp-->
+            <package name="myapp.*" />
+        </packages>
+    </test>
+</suite>
