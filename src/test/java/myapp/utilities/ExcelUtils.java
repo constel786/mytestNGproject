@@ -2,16 +2,17 @@ package myapp.utilities;
 
 import org.apache.poi.ss.usermodel.*;
 import org.testng.Assert;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+
 public class ExcelUtils {
+
     private Workbook workBook;
     private Sheet workSheet;
     private String path;
+
     public ExcelUtils(String path, String sheetName) {//This Constructor is to open and access the excel file
         this.path = path;
         try {
@@ -122,4 +123,5 @@ public class ExcelUtils {
         }
         return data;
     }
+
 }
