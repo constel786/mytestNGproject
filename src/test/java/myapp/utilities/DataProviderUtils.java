@@ -18,7 +18,7 @@ public class DataProviderUtils {
         String sheetName = "customer_info";
         ExcelUtils excelUtils = new ExcelUtils(path, sheetName);
         Object [][] customerInfo = excelUtils.getDataArrayWithoutFirstRow();
-        //return customerInfo;
+        return customerInfo;
     }
 }
 
