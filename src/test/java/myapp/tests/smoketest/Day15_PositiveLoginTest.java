@@ -50,8 +50,7 @@ public class Day15_PositiveLoginTest {
 //        click on logout
         rentalHomePage.logOut.click();
         WaitUtils.waitFor(2);
-        click on OK
-
+//        click on OK
         rentalHomePage.OK.click();
         WaitUtils.waitFor(2);
         ExtentReportUtils.passAndCaptureScreenshot("Logged out successfully");
