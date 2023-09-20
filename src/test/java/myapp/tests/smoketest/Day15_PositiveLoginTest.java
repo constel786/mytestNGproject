@@ -61,7 +61,7 @@ public class Day15_PositiveLoginTest {
         Driver.closeDriver();
         ExtentReportUtils.pass("Test is completed successfully.");
         ExtentReportUtils.flush(); //Generates the report.
-//        LoggerUtils.info("***Admin Login Test successfully completed.***");
+        LoggerUtils.info("***Admin Login Test successfully completed.***");
     }
 }
 
