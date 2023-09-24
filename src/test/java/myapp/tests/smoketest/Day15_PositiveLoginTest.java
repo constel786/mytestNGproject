@@ -5,7 +5,6 @@ import myapp.pages.RentalLoginPage;
 import myapp.utilities.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.logging.Logger;
 
 public class Day15_PositiveLoginTest {
