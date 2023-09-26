@@ -58,8 +58,8 @@ public class Day15_PositiveLoginTest {
         BrowserUtils.verifyElementNotDisplayed(rentalHomePage.OK);
         WaitUtils.waitFor(2);
         Driver.closeDriver();
-        ExtentReportUtils.pass("Test is completed successfully.");
-        ExtentReportUtils.flush(); //Generates the report.
+//        ExtentReportUtils.pass("Test is completed successfully.");
+//        ExtentReportUtils.flush(); //Generates the report.
         LoggerUtils.info("***Admin Login Test successfully completed.***");
     }
 }
